@@ -9,6 +9,12 @@
     "@grpc/grpc-js-xds": "^1.10.0",
     "@grpc/reflection": "^1.0.0",
     "lodash": "^4.6.1",
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.0",
+    "koa": "^2.14.2",
+    "koa-router": "^12.0.0",
+    "koa-body": "^6.0.1",
+    "cls-hooked": "^4.2.2",
+    "log4js": "^6.3.0",
+    "uuid": "^9.0.0"
   }
 }
