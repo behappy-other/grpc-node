@@ -17,7 +17,7 @@ function headerInterceptor(options, nextCall) {
   return new grpc.InterceptingCall(nextCall(options), {
     start: function(metadata, listener, next) {
       // 在metadata中添加自定义header
-      metadata.add('test', 'aaaaa');
+      metadata.add('trace-id', 'xxx');
       next(metadata, listener);
     }
   });
